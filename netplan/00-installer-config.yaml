@@ -1,0 +1,26 @@
+# This is the network config written by 'subiquity'
+network:
+  ethernets:
+    enp0s3:
+      addresses:
+      - 10.0.0.4/24
+      gateway4: 10.0.0.1
+      nameservers:
+        addresses:
+        - 10.0.0.2
+        - 10.0.0.1
+    enp0s8:
+      addresses:
+      - 192.168.12.4/24
+      gateway4: 192.168.12.1
+      nameservers:
+        addresses:
+        - 192.168.12.1
+    enp0s9:
+      addresses:
+      - 192.168.1.4/24
+      gateway4: 192.168.1.1
+      nameservers:
+        addresses:
+        - 192.168.1.1
+  version
